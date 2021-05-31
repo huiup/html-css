@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5新增视频标签</title>
+    <!-- 谷歌浏览器把音频和视频自动播放禁止了 -->
+
+    <style>
+        video {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <video src="media/mi.mp4" autoplay="autoplay" muted="muted" loop="loop" poster="media/mi9.jpg">
+    </video>
+    <!-- 考虑兼容性↓ -->
+    <!-- <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        您的浏览器不支持Video标签。
+    </video> -->
+</body>
+
+</html>
