@@ -10,18 +10,23 @@
         body {
             perspective: 500px;
         }
-        
+
         img {
             display: block;
             margin: 100px auto;
             transition: all 1s;
         }
-        
+
         img:hover {
             /* transform: rotateZ(180deg); */
+
+            /* 3d旋转 了解即可 */
             /* transform: rotate3d(x,y,z,deg); */
+            /* 绕x轴旋转 */
             /* transform: rotate3d(1, 0, 0, 45deg); */
+            /* 绕y轴旋转 */
             /* transform: rotate3d(0, 1, 0, 45deg); */
+            /* x，y轴旋转（矢量） */
             transform: rotate3d(1, 1, 0, 45deg);
         }
     </style>

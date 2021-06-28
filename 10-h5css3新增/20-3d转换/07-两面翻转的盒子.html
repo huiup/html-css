@@ -10,21 +10,21 @@
         body {
             perspective: 400px;
         }
-        
+
         .box {
             position: relative;
             width: 300px;
             height: 300px;
             margin: 100px auto;
-            transition: all .4s;
+            transition: all 1s;
             /* 让背面的紫色盒子保留立体空间 给父级添加的 */
             transform-style: preserve-3d;
         }
-        
+
         .box:hover {
             transform: rotateY(180deg);
         }
-        
+
         .front,
         .back {
             position: absolute;
@@ -38,12 +38,12 @@
             text-align: center;
             line-height: 300px;
         }
-        
+
         .front {
             background-color: pink;
             z-index: 1;
         }
-        
+
         .back {
             background-color: purple;
             /* 像手机一样 背靠背 旋转 */
@@ -54,8 +54,8 @@
 
 <body>
     <div class="box">
-        <div class="front">黑马程序员</div>
-        <div class="back">pink老师这里等你</div>
+        <div class="front">勇敢牛牛</div>
+        <div class="back">无所畏惧</div>
     </div>
 </body>
 
